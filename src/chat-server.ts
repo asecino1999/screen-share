@@ -70,6 +70,7 @@ export class ChatServer {
     }
 
     public getApp(): express.Application {
+        //this.app.set()
         return this.app;
     }
 }
